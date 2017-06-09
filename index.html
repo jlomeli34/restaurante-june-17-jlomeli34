@@ -9,9 +9,88 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+	<header class="container fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a class="navbar-brand" href="#"><img src="img/name-01.png" alt="logo" class="img-relative"></a>
+				</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right text-shadow">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Our Story</a></li>
+						<li><a href="#">Review</a></li>
+						<li><a href="#">Menu</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active" id="wood-background"> <!--first slide-->
+				<img src="img/logo-01.png" alt="logo" class="img-responsive center-block" id="restaurante-img">
+			</div>
+			<div class="item" id="seating-background"> <!--second slide-->
+				<div class="carousel-caption text-shadow">
+					<h2>Eat local</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quis suscipit officiis eaque tempora cumque repudiandae a, totam commodi veritatis veniam reiciendis mollitia cum.</p>
+				<button type="button" class="btn btn-warning btn-lg">Learn More</button>
+				</div>
+			</div>
+			<div class="item" id="farm-background"> <!--third slide-->
+				<div class="carousel-caption text-shadow">
+					<h2>From farm to table</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quis suscipit officiis eaque tempora cumque repudiandae a, totam commodi veritatis veniam reiciendis mollitia cum.</p>
+					<button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
+				</div>
+			</div>
+		</div>
+<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!--Carousel Ends-->
+	<!--Our story section-->
+	<div class="container"id="story">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1 class="orange-text text-shadow">Our Story</h1>
+				<p>One Man. One Dream.</p>
+			</div>
+			<div class="col-sm-6 text-justify"><!--year section begins-->
+				<h1 class="year-text">1989</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque nihil culpa, odit sed deleniti repudiandae, praesentium necessitatibus iusto sint eligendi quisquam magni nostrum, temporibus placeat minus? At ipsam, incidunt.</p>
+				<p>Accusamus suscipit architecto dignissimos, distinctio illum dolorum at dolore ducimus eos aperiam nihil, aliquid debitis. Vel cumque assumenda, molestiae soluta sed. Labore saepe dignissimos dolorem, nemo dicta quae. Consectetur, esse!</p>
+				<p>Quia quae aliquam sequi illo sunt commodi omnis dignissimos amet cumque qui, unde sint explicabo voluptas accusamus! Obcaecati molestiae perferendis sed, incidunt, earum quisquam mollitia cupiditate aliquid asperiores, placeat ipsa.</p>
+				<p>Autem ipsa vel, nesciunt reiciendis praesentium omnis eligendi fugiat, illo at a distinctio quidem saepe maxime voluptatem earum id ratione. Quisquam, reiciendis magni dolorum, explicabo ducimus culpa. Iusto asperiores, nulla!</p>
+			</div><!--year section ends-->
+		</div>
+	</div>
 	<!-- javascript	 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
