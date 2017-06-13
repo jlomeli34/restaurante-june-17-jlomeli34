@@ -61,6 +61,7 @@ p{
 /*Our Story Section*/
 #story{
   padding-top: 5%;
+  margin-bottom: 9%;
 }
 #story h1.orange-text{
   font-family:'lobster', cursive;
@@ -82,4 +83,25 @@ p{
 .year-text~p {
   font-weight: 300;
   line-height: 18px;
+}
+#review{
+  background-image: url(../img/food_review.jpg);
+  background-size: size;
+  background-position:center;
+  background-attachment: fixed;
+  height: 350px;
+  padding-top: 6%;
+}
+.review-background{
+background-color: rgba(0,0,0,0.5);
+border-radius: 4px;
+text-align: center;
+}
+#review h1{
+  font-family:'Lobster', cursive;
+  font-size: 54px;
+}
+#review{
+  color: #fff;
+  font-size: 20px;
 }
