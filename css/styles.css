@@ -13,6 +13,9 @@ p{
 .text-shadow{
   text-shadow: 2px 2px #333;
 }
+body{
+  position: relative;
+}
 /*HEADER STYLES*/
 .navbar{
   background-color: transparent;
@@ -25,7 +28,7 @@ p{
 .navbar-default .navbar-nav>li>a{
   color: #fff;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{
   color: #F8512F;
 }
 /*CAROUSEL STYLES*/
@@ -127,4 +130,23 @@ text-align: center;
 }
 .tab-pane{
   background-color: #fff;
+}
+/*CONTACT STYLES*/
+#contact{
+  background-color:  #F8512F;
+  padding-top: 2%;
+  height: 600px;
+}
+#contact-form{
+  padding-right: 120px;
+}
+iframe{
+  height: 90%;
+  width: 90%;
+}
+.contact-text{
+  color: #fff;
+}
+.contact-text h1{
+  font-size: 5em;
 }
